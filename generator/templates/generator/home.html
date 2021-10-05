@@ -1,0 +1,24 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+<div class='container text-center'>
+  <H1>Password Generator Page</H1>
+  <BR>
+  <form action="password">
+    <select name="length">
+      <option value="6">6</option>
+      <option value="9">9</option>
+      <option value="12">12</option>
+      <option value="15" selected="selected">15</option>
+    </select> How many characters?
+    <BR><BR>
+    <input type="checkbox" name="uppercase"> Uppercase
+    <BR>
+    <BR>
+    <input type="checkbox" name="numbers"> Numbers
+    <BR>
+    <BR>
+    <input type="checkbox" name="special"> Special
+    <BR><BR>
+    <input type="submit" value="Generate Password" class="btn btn-primary">
+  </form>
+</div>
